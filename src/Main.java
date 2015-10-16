@@ -2,23 +2,18 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		bizz(3);
-		buzz(5);
+		biuzz(5);
 	}
 	
-	public static void bizz(int n)
-	{
-		if(n % 3 == 0)
-		{
-			System.out.println("BIZZ");
-		}
-	}
-	
-	public static void buzz(int n)
+	public static void biuzz(int n)
 	{
 		if(n % 5 == 0)
 		{
 			System.out.println("BUZZ");
+		}
+		else if(n % 3 == 0)
+		{
+			System.out.println("BIZZ");
 		}
 	}
 }
